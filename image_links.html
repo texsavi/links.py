@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Images and Links</title>  
+</head>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header, nav, section, footer {
+        padding: 20px;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: #333;
+    }
+    section {
+        margin: 20px 0;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Welcome to...Images and Links</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#menu">Menu</a></li>
+    </ul>
+</nav>
+<section id="home">
+    <h2>Home</h2>
+    <p>Let's tech you to the next level:</p>
+    <a href="https://pixabay.com/images/search/tech/" target="_blank"><img src="tech1.jpg" alt="Image of a computer displaying code"></a>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <a href="https://twitter.com/WOAH/status/1367405713044217856" target="_blank"><img src="natr1.jpg" alt="Image of an Ocelot"></a>
+        <a href="https://stock.adobe.com/ke/images/animals-and-wildlife-green-background-silhouette-nature-zoo-and-safari/213768927" target="_blank"><img src="natr3.jpg" alt="Image of wildlife in a green silhoutte background"></a>
+        <a href="https://en.wikipedia.org/wiki/Wildlife" target="_blank"><img src="natr2.jpg" alt="Image of a lion and a cub in the wild"></a>
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <ul>
+        <li><a href="https://www.pexels.com/photo/flat-lay-photography-of-vegetable-salad-on-plate-1640777/" target="_blank"><img src="fd1.jpg" alt="Image of assorted fruit puddinng"></a></li>
+        <li><a href="https://www.pexels.com/photo/fries-and-burger-on-plate-70497/" target="_blank"><img src="fd2.jpg" alt="Image of delicious burger and fries"></a></li>
+        <li><a href="https://www.pexels.com/photo/white-cream-on-white-bowl-1633525/" target="_blank"><img src="fd3.jpg" alt="Image of a cheesy hotdog"></a></li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy;  Bett2024 Images and Links</p>
+</footer>
+</body>
+
+</html>
